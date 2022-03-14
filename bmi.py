@@ -9,7 +9,7 @@
 #Enter height(cm): 180
 #The BMI is (kg/m2) 20.06
 
-#1. thing is to allow user to input values use unput function
+#1. allow user to input values use unput function
 #2. need to assign a type - in this case it's a float. Decimal point needed 
 #3. define the calculation for the BMI (weight kg / height meters squared )
 #4. Use print function to display value..
