@@ -1,16 +1,24 @@
-#Author Ruth Keady - Extracted from https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python
+#Author Ruth Keady - 
 
-#Write a program that outputs whether or not today is a weekday.(You will need to search the web to find how you work out what day it is)An example of running this program on a Thursday is given below.Yes, unfortunately today is a weekday.An example of running it on a Saturday is as follows:It is the weekend, yay!
-
-# How to Find the Current Day is Weekday or Weekends in Python
 
 # Import Module
 import datetime
 
 # To Get the Week Number
 weekNumber = datetime.datetime.today().weekday()
+#weekNumber = 6 test to see if it changes manually 
 
 if weekNumber < 5:
-    print("Today's DateTime is {0} and it's a Weekday".format(datetime.datetime.today()))
+   # return commance for weekday 
+   print ("Yes, unfortunately today is a weekday")
 else:
-    print ("Today's DateTime is {0} and it's a Weekend".format(datetime.datetime.today()))
+   # return command for weekend
+   print ("It is the weekend, yay!")
+
+#END
+
+#References 
+#1. Lecture
+#2. https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python
+#3. w3schools : if/else https://www.w3schools.com/python/python_conditions.asp 
+#4. w3schools: Dates https://www.w3schools.com/python/python_datetime.asp
