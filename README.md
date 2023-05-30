@@ -1,7 +1,7 @@
 # Programming and Data Anlytics Python Problem Sheet. 
 
 Overview of Repository:
-This repository is used to document several mathematics equations and string manipulation 
+This repository is used to document several mathematics equations and string manipulations 
 
 Within this repository you will find the following files:
 1. BMI.py - Calculating BMI. 
